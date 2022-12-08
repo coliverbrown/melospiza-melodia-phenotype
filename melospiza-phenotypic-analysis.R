@@ -164,17 +164,17 @@ mm_final$order <- factor(mm_final$SUBSPECIES, levels =c("maxima","sanaka","insig
 
 par(mar = c(5, 5, 3, 1.5), mfrow=c(2,4))
 # Boxplot of Mass
-plot(mm_final$order, mm_final$MASS, ylab = "Mass (g)", xlab = NULL, col = c(col.maxima, col.sanaka, col.insignis,col.caurina,col.rufina))
+plot(mm_final$order, mm_final$MASS, ylab = "Mass (g)", xlab = NULL, col = col.pallete)
 # Boxplot of WCH
-plot(mm_final$order, mm_final$WCH, ylab = "Wing Chord (mm)", xlab = NULL, col = c(col.maxima, col.sanaka, col.insignis,col.caurina,col.rufina))
-plot(mm_final$order, mm_final$TL, ylab = "Tail Length (mm)", xlab = NULL, col = c(col.maxima, col.sanaka, col.insignis,col.caurina,col.rufina))
-plot(mm_final$order, mm_final$TS, ylab = "Tarsus Length (mm)", xlab = NULL, col = c(col.maxima, col.sanaka, col.insignis,col.caurina,col.rufina))
-legend("topright", bty="n",legend = c("maxima","sanaka","insignis","caurina","rufina"),fill = c(col.maxima, col.sanaka, col.insignis,col.caurina,col.rufina),cex=0.8)
+plot(mm_final$order, mm_final$WCH, ylab = "Wing Chord (mm)", xlab = NULL, col = col.pallete)
+plot(mm_final$order, mm_final$TL, ylab = "Tail Length (mm)", xlab = NULL, col = col.pallete)
+plot(mm_final$order, mm_final$TS, ylab = "Tarsus Length (mm)", xlab = NULL, col = col.pallete)
+legend("topright", bty="n",legend = c("maxima","sanaka","insignis","caurina","rufina"),fill = col.pallete,cex=0.8)
 
-plot(mm_final$order, mm_final$BL, ylab = "Bill Length (mm)", xlab = NULL, col = c(col.maxima, col.sanaka, col.insignis,col.caurina,col.rufina))
-plot(mm_final$order, mm_final$BLH, ylab = "Bill Length Height (mm)", xlab = NULL, col = c(col.maxima, col.sanaka, col.insignis,col.caurina,col.rufina))
-plot(mm_final$order, mm_final$BLW, ylab = "Bill Length Width (mm)",xlab = NULL, col = c(col.maxima, col.sanaka, col.insignis,col.caurina,col.rufina))
-plot(mm_final$order, mm_final$SKL, ylab = "Skull Length (mm)",xlab = NULL, col = c(col.maxima, col.sanaka, col.insignis,col.caurina,col.rufina))
+plot(mm_final$order, mm_final$BL, ylab = "Bill Length (mm)", xlab = NULL, col = col.pallete)
+plot(mm_final$order, mm_final$BLH, ylab = "Bill Length Height (mm)", xlab = NULL, col = col.pallete)
+plot(mm_final$order, mm_final$BLW, ylab = "Bill Length Width (mm)",xlab = NULL, col = col.pallete)
+plot(mm_final$order, mm_final$SKL, ylab = "Skull Length (mm)",xlab = NULL, col = co.pallete)
 
 dev.copy2pdf(file = "./melodia-boxplots.pdf",
              width = 12, height = 8, bg = "white", compress = F, out.type = "pdf")
