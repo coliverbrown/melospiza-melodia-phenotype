@@ -3,7 +3,7 @@
 ####### 7 Dec 2022
 
 ## set working directory
-setwd("C:/Users/brown/GitHub/melospiza-melodia-phenotype/melospiza-phenotype/")
+setwd("C:/Users/brown/GitHub/melospiza-melodia-phenotype/")
 
 ## install packages and turn them on
 # install.packages("tidyverse")
@@ -161,6 +161,7 @@ col.pallete <- c(col.maxima, col.sanaka, col.insignis,col.caurina,col.rufina)
 ## Reorder for West to East distribution
 mm_final$order <- factor(mm_final$SUBSPECIES, levels =c("maxima","sanaka","insignis","caurina", "rufina"))
 
+#png("boxplot.png")
 
 par(mar = c(5, 5, 3, 1.5), mfrow=c(2,4))
 # Boxplot of Mass
@@ -174,7 +175,9 @@ legend("topright", bty="n",legend = c("maxima","sanaka","insignis","caurina","ru
 plot(mm_final$order, mm_final$BL, ylab = "Bill Length (mm)", xlab = NULL, col = col.pallete)
 plot(mm_final$order, mm_final$BLH, ylab = "Bill Length Height (mm)", xlab = NULL, col = col.pallete)
 plot(mm_final$order, mm_final$BLW, ylab = "Bill Length Width (mm)",xlab = NULL, col = col.pallete)
-plot(mm_final$order, mm_final$SKL, ylab = "Skull Length (mm)",xlab = NULL, col = co.pallete)
+plot(mm_final$order, mm_final$SKL, ylab = "Skull Length (mm)",xlab = NULL, col = col.pallete)
+
+#dev.off()
 
 dev.copy2pdf(file = "./melodia-boxplots.pdf",
              width = 12, height = 8, bg = "white", compress = F, out.type = "pdf")
@@ -186,11 +189,12 @@ dev.copy2pdf(file = "./melodia-boxplots.pdf",
 mm_final_std <- scale(mm_final[,c(4:11)], scale = TRUE, center = T) ## z-transform data
 mm_final_pca <- prcomp(mm_final_std, scale = TRUE) ## pca of transformed data
 
-
+#png("pca.png")
 ggord(mm_final_pca, mm_final$order, 
       cols= col.pallete,
       xlims = c(-5,7), ylims = c(-10, 8),
       size = 5
       )
+#dev.off()
 dev.copy2pdf(file = "./melospiza-pca.pdf", width = 10, height = 10, bg = "white", compress = F, out.type= "pdf")
 
