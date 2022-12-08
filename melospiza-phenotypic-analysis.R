@@ -3,13 +3,12 @@
 ####### 7 Dec 2022
 
 ## set working directory
-setwd("C:/Users/brown/OneDrive/Documents/melospiza-phenotype/")
+setwd("C:/Users/brown/GitHub/melospiza-melodia-phenotype/melospiza-phenotype/")
 
 ## install packages and turn them on
 # install.packages("tidyverse")
 # install.packages("ggplot2")
 # install.packages("devtools")
-
 # install_github("fawda123/ggord")
 library(devtools)
 library(tidyverse)
@@ -58,7 +57,7 @@ mm_rufina_full <- mm_full_filtered %>% filter(SUBSPECIES == "rufina")
 
 ## Remove outliers to account for human error in measurements
 
-## Make new dataframes for each subspecies and pull out numerica data
+## Make new data frames for each subspecies and pull out numerical data
 # maxima
 mm_maxima <- mm_full_filtered %>% 
   filter(SUBSPECIES == "maxima") %>% 
@@ -144,7 +143,6 @@ mm_final %>%
   summarize(mean_SKL = mean(SKL))
 
 
-
 ###### STEP 3: Plotting- Box Plots
 
 ## Color Pallete (colorblind friendly)
@@ -185,9 +183,8 @@ dev.copy2pdf(file = "./melodia-boxplots.pdf",
 ###### STEP 4: Plotting- PCA
 
 
-## scale the data
-mm_final_std <- scale(mm_final[,c(4:11)], scale = TRUE, center = T)
-mm_final_pca <- prcomp(mm_final_std, scale = TRUE)
+mm_final_std <- scale(mm_final[,c(4:11)], scale = TRUE, center = T) ## z-transform data
+mm_final_pca <- prcomp(mm_final_std, scale = TRUE) ## pca of transformed data
 
 
 ggord(mm_final_pca, mm_final$order, 
