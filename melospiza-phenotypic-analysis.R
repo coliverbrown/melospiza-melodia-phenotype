@@ -1,6 +1,6 @@
 ####### Melospiza melodia phenotypic analysis
 ####### Caitlyn Oliver Brown
-####### 7 Dec 2022
+####### Last Update: 10 Dec 2022
 
 ## set working directory
 setwd("C:/Users/brown/GitHub/melospiza-melodia-phenotype/")
@@ -26,8 +26,6 @@ mm_full <- read.csv("melospiza-melodia-fullflat-raw.csv") ##unedited raw data
 
 for (i in 1:dim(mm_full)[1]){
   temp <- skin.meas.split(mm_full[i,"SKINMEAS"]) 
- # print(temp)
-  # }
   if(length(temp) >= 1) {
     mm_full[i,29:35] <- temp
     }
@@ -145,41 +143,38 @@ mm_final %>%
 
 ###### STEP 3: Plotting- Box Plots
 
-## Color Pallete (colorblind friendly)
-# rufina = orange
-col.rufina = rgb(230/255, 158/255, 0/255)
-# caurina = lime
-col.caurina = rgb(240/255, 228/255, 66/255)       
-# insignis = teal
-col.insignis =  rgb(0/255, 158/255, 115/255)      
-# sanaka = light blue
-col.sanaka = rgb(86/255, 180/255, 233/255)
-# maxima = dark blue
-col.maxima = rgb(0/255, 114/255, 178/255)
+## Color Pallete (colorblind friendly) - from https://personal.sron.nl/~pault/data/colourschemes.pdf
+# maxima = light blue
+col.maxima <- c("#77AADD")
+# sanaka = light cyan
+col.sanaka <- c("#99DDFF")
+# insignis = mint
+col.insignis <- c("#44BB99")
+# caurina = pear
+col.caurina <- c("#BBCC33")
+# rufina = olive
+col.rufina <- c("#AAAA00")
 col.pallete <- c(col.maxima, col.sanaka, col.insignis,col.caurina,col.rufina)
 
 ## Reorder for West to East distribution
 mm_final$order <- factor(mm_final$SUBSPECIES, levels =c("maxima","sanaka","insignis","caurina", "rufina"))
 
-#png("boxplot.png")
 
 par(mar = c(5, 5, 3, 1.5), mfrow=c(2,4))
-# Boxplot of Mass
+
 plot(mm_final$order, mm_final$MASS, ylab = "Mass (g)", xlab = NULL, col = col.pallete)
-# Boxplot of WCH
 plot(mm_final$order, mm_final$WCH, ylab = "Wing Chord (mm)", xlab = NULL, col = col.pallete)
 plot(mm_final$order, mm_final$TL, ylab = "Tail Length (mm)", xlab = NULL, col = col.pallete)
 plot(mm_final$order, mm_final$TS, ylab = "Tarsus Length (mm)", xlab = NULL, col = col.pallete)
 legend("topright", bty="n",legend = c("maxima","sanaka","insignis","caurina","rufina"),fill = col.pallete,cex=0.8)
-
 plot(mm_final$order, mm_final$BL, ylab = "Bill Length (mm)", xlab = NULL, col = col.pallete)
 plot(mm_final$order, mm_final$BLH, ylab = "Bill Length Height (mm)", xlab = NULL, col = col.pallete)
 plot(mm_final$order, mm_final$BLW, ylab = "Bill Length Width (mm)",xlab = NULL, col = col.pallete)
 plot(mm_final$order, mm_final$SKL, ylab = "Skull Length (mm)",xlab = NULL, col = col.pallete)
 
-#dev.off()
 
-dev.copy2pdf(file = "./melodia-boxplots.pdf",
+
+dev.copy2pdf(file = "./melospiza-boxplots.pdf",
              width = 12, height = 8, bg = "white", compress = F, out.type = "pdf")
 
 
@@ -189,12 +184,14 @@ dev.copy2pdf(file = "./melodia-boxplots.pdf",
 mm_final_std <- scale(mm_final[,c(4:11)], scale = TRUE, center = T) ## z-transform data
 mm_final_pca <- prcomp(mm_final_std, scale = TRUE) ## pca of transformed data
 
-#png("pca.png")
+mm_final_pca$rotation <- mm_final_pca$rotation *9 ## make the arrows on the PCA longer
+
 ggord(mm_final_pca, mm_final$order, 
       cols= col.pallete,
-      xlims = c(-5,7), ylims = c(-10, 8),
-      size = 5
-      )
-#dev.off()
+      xlims = c(-6,7), ylims = c(-10, 8),
+      grp_title = "subspecies"
+      ) +
+  scale_shape_manual(values = c(21,25,22,23,24))
+
 dev.copy2pdf(file = "./melospiza-pca.pdf", width = 10, height = 10, bg = "white", compress = F, out.type= "pdf")
 
