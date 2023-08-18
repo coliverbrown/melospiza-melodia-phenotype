@@ -1,0 +1,228 @@
+CATSFX,GENUS,SPECIES,SUBSPECIES,AGE,SEX,DATE,COUNTRY,STATE,COUNTY,SPECLOC,COLLCATNUM,MASS,WCH,TL,TS,BL,BLH,BLW,SKL
+27914,Melospiza,melodia,maxima,AD,M,2-Jun-09,USA,Alaska,Aleutian Islands,"Adak I., near old LORAN station",JJW249,45,81,83,28,11.9,7.4,5.6,38.5
+27919,Melospiza,melodia,maxima,AD,M,12-Jun-09,USA,Alaska,Aleutian Islands,"Adak I., Shagak Bay",JJW348,48,83.1,73,29.1,11.8,6.8,6.1,38.9
+10188,Melospiza,melodia,maxima,AHY,M,21-May-99,USA,Alaska,Aleutian Islands,Adak Island,KSW2985,50.2,81.6,81,28.6,12.3,7.9,6.5,38.7
+10186,Melospiza,melodia,maxima,AHY,M,23-May-99,USA,Alaska,Aleutian Islands,Adak Island,KSW3012,44.8,83.9,82.9,28.3,12.6,7.1,6.6,39.2
+11175,Melospiza,melodia,maxima,AHY,M,22-May-99,USA,Alaska,Aleutian Islands,Adak Island,KSW2990,45.4,76.3,75.3,27.2,12.5,7.1,5.8,39.7
+11827,Melospiza,melodia,maxima,AD,M,17-May-99,USA,Alaska,Aleutian Islands,Adak Island,KSW2959,50,81.5,84.4,29.3,12.4,7.2,6.2,38.2
+11176,Melospiza,melodia,maxima,AHY,M,24-May-98,USA,Alaska,Aleutian Islands,Adak Island,CLP532,46.2,82.5,78.1,29.4,12.6,7.3,5.3,40.4
+11562,Melospiza,melodia,maxima,AHY,M,23-May-99,USA,Alaska,Aleutian Islands,Adak Island,TMB251,44.4,82.6,80,22.4,18.6,7.7,5.3,38.9
+11561,Melospiza,melodia,maxima,AHY,M,23-May-99,USA,Alaska,Aleutian Islands,Adak Island,TMB250,47.1,83.1,74.4,26.5,13.9,7.5,5.6,39.7
+11558,Melospiza,melodia,maxima,AHY,M,23-May-99,USA,Alaska,Aleutian Islands,Adak Island,TMB254,49.1,83.1,82,27.8,12.8,7.5,6.3,39.8
+11267,Melospiza,melodia,maxima,AHY,M,24-May-98,USA,Alaska,Aleutian Islands,Adak Island,CLP534,47.1,83.3,77,26.9,13.2,7.7,5.9,40
+11559,Melospiza,melodia,maxima,AHY,M,23-May-99,USA,Alaska,Aleutian Islands,Adak Island,TMB242,47.2,83.4,82.4,27.9,12.5,7.3,5.4,38.5
+11177,Melospiza,melodia,maxima,AHY,M,24-May-98,USA,Alaska,Aleutian Islands,Adak Island,CLP531,47.7,83.7,81.3,26.3,12.3,7.3,6.1,39.3
+36278,Melospiza,melodia,maxima,AHY,M,27-May-00,USA,Alaska,Aleutian Islands,Adak Island,CLP456,47.5,84.4,79.5,29,12.9,7.8,5.4,40.1
+11178,Melospiza,melodia,maxima,AHY,M,21-May-98,USA,Alaska,Aleutian Islands,Adak Island,CLP533,47,85.7,80.6,29,13.2,5.7,5.7,40.1
+11280,Melospiza,melodia,maxima,AHY,M,23-May-98,USA,Alaska,Aleutian Islands,Adak Island,ABJ078,50.5,86.2,74.7,29,13,7,6.1,39.1
+11268,Melospiza,melodia,maxima,AHY,M,24-May-98,USA,Alaska,Aleutian Islands,Adak Island,CLP535,49.6,89.9,81,26.8,13.4,7.3,5.4,40.5
+36552,Melospiza,melodia,maxima,AHY,M,9-Jun-05,USA,Alaska,Aleutian Islands,"Agattu Island, Karab Cove",UAMX3401,49,85,77,26.3,13.5,8.2,6.2,39.6
+8461,Melospiza,melodia,maxima,AD,M,21-May-98,USA,Alaska,Aleutian Islands,"Andreanof Island, Adak Island",UAMX481,49.5,84.3,79.5,29.5,3.3,17.5,6.5,40.2
+15319,Melospiza,melodia,maxima,AHY,M,22-May-00,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",CLP443,45.5,62.5,71.3,26.1,12.1,7.3,5.8,36
+10942,Melospiza,melodia,maxima,AHY,M,16-Jun-99,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",CLP092,48,78.7,75.2,26.8,12.8,7.5,6.2,39.8
+11048,Melospiza,melodia,maxima,AD,M,22-May-99,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",KSW2992,46.5,80.5,82.5,27,13,12.4,6.6,32.3
+13059,Melospiza,melodia,maxima,AHY,M,21-Jun-99,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",CLP123,49.7,80.7,73.5,27.9,13.2,7.3,6.2,39.8
+10040,Melospiza,melodia,maxima,AHY,M,21-May-99,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",KSW2984,48.7,80.7,77.8,28.7,11.2,7.6,6.8,38.6
+15326,Melospiza,melodia,maxima,AHY,M,21-May-00,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",CLP431,46.3,81,77.8,25.6,12.4,8.1,6.1,39.7
+11511,Melospiza,melodia,maxima,AD,M,22-May-99,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",KSW2991,46.8,81.1,71.3,28.5,11.7,7.4,5.3,38.6
+15340,Melospiza,melodia,maxima,AHY,M,26-May-00,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",CLP461,47.3,81.7,75.3,28,13.1,7.7,5.9,40
+15312,Melospiza,melodia,maxima,AHY,M,22-May-00,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",,44,81,76,26.9,15,7.4,6.4,36.8
+15307,Melospiza,melodia,maxima,AD,M,21-May-00,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",CLP430,45.1,82,85,27.5,12.7,7.8,4.6,36.2
+10179,Melospiza,melodia,maxima,AD,M,24-May-99,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",KSW3014,45.1,82.4,80.2,28.2,13.9,7.7,6.5,36.5
+11229,Melospiza,melodia,maxima,AD,M,15-Jun-99,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",CLP069,42.1,82.5,78.7,27.5,13.1,7.3,6,38
+15353,Melospiza,melodia,maxima,AHY,M,25-May-00,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",CLP457,48.2,82.7,77.4,26.5,7.8,7.3,5.3,39.8
+14611,Melospiza,melodia,maxima,AHY,M,18-Jun-99,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",CLP114,48,82.8,80.7,28.3,12.4,7.8,5,39.1
+15321,Melospiza,melodia,maxima,AHY,M,22-May-00,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",CLP446,49,83.2,78.2,26.4,12.1,7.2,5.8,38.1
+15298,Melospiza,melodia,maxima,AHY,M,21-May-00,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",CLP432,47,83.5,70.4,26.8,12.7,7.8,5.7,39.5
+15305,Melospiza,melodia,maxima,AD,M,21-May-00,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",CLP434,46,83.5,82,30.8,12.7,7.6,5.4,38.3
+15367,Melospiza,melodia,maxima,AD,M,27-May-00,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",CLP466,48.2,84,81.9,30,11.9,7.4,4.8,38.9
+10165,Melospiza,melodia,maxima,AD,M,23-May-99,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",KSW3010,47.9,84.8,79.6,29.8,12.8,8.7,5.7,39
+15339,Melospiza,melodia,maxima,AHY,M,27-May-00,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",CLP467,45.8,84.9,82.5,29.6,12.9,7.8,5.3,39.2
+10041,Melospiza,melodia,maxima,AHY,M,21-May-99,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",KSW2986,47.9,85.1,82.8,29.3,12.8,7.9,7.8,39
+10946,Melospiza,melodia,maxima,AHY,M,17-Jun-99,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",CLP108,48.3,85.9,80.7,29.6,13.3,7.1,5.6,40.3
+13186,Melospiza,melodia,maxima,AD,M,22-May-99,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",KSW2997,48.7,86.5,88,29.2,12.1,7.8,5.7,38.6
+15315,Melospiza,melodia,maxima,AHY,M,24-May-00,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",CLP452,51,86.8,77.1,26.6,13.2,7.4,6.4,39.9
+15344,Melospiza,melodia,maxima,AHY,M,19-May-00,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island",CLP410,49.8,87.6,79.3,30.6,12.8,7.4,5.8,39.6
+10170,Melospiza,melodia,maxima,AHY,M,16-Jun-99,USA,Alaska,Aleutian Islands,"Andreanof Islands, Adak Island, Finger Bay",CLP097,47.2,85.6,77.3,28.4,13,7.4,5.7,39.6
+11291,Melospiza,melodia,maxima,AD,M,17-May-00,USA,Alaska,Aleutian Islands,"Andreanof Islands, Amlia Island",KSW3377,48.2,81.9,78.8,27.1,11.9,7.1,6,38.5
+11295,Melospiza,melodia,maxima,AD,M,17-May-00,USA,Alaska,Aleutian Islands,"Andreanof Islands, Amlia Island",KSW3373,47.6,82.3,77.8,26.3,12.3,7.2,5.5,38.6
+11297,Melospiza,melodia,maxima,AD,M,18-May-00,USA,Alaska,Aleutian Islands,"Andreanof Islands, Amlia Island",KSW3386,45.5,85.6,81.2,26.6,12.2,7.4,5.8,39
+11294,Melospiza,melodia,maxima,AD,M,18-May-00,USA,Alaska,Aleutian Islands,"Andreanof Islands, Amlia Island",KSW3385,50.1,86.1,79.2,28.2,12.9,7.4,6.1,40.1
+11296,Melospiza,melodia,maxima,AD,M,18-May-00,USA,Alaska,Aleutian Islands,"Andreanof Islands, Amlia Island",KSW3387,48.4,86.3,83.6,28.1,12.2,7.3,6.1,39.1
+11289,Melospiza,melodia,maxima,AD,M,18-May-00,USA,Alaska,Aleutian Islands,"Andreanof Islands, Amlia Island",KSW3384,48.6,87.5,87.3,27.9,13.1,7.8,6.3,39.7
+13160,Melospiza,melodia,maxima,AHY,M,18-May-00,USA,Alaska,Aleutian Islands,"Andreanof Islands, Amlia Island",KSW3380,49.4,87,80.3,22.5,12.9,7.4,9.3,38.7
+15323,Melospiza,melodia,maxima,AHY,M,1-Sep-00,USA,Alaska,Aleutian Islands,"Andreanof Islands, Igitkin Island",DAR029,41.9,77.6,74.3,24.5,11.5,7.5,6.2,36.8
+8779,Melospiza,melodia,maxima,AHY,M,6-Jun-98,USA,Alaska,Aleutian Islands,"Andreanof Islands, Kanaga Island, Kanaga Bay",UAMX721,49.5,85.2,79.4,24.9,12.5,7.4,7.5,39.1
+15318,Melospiza,melodia,maxima,AHY,M,3-Sep-00,USA,Alaska,Aleutian Islands,"Andreanof Islands, Tanaga Island",DAR036,46.8,79.8,71.6,21.3,11.4,7.1,6.4,32.7
+27848,Melospiza,melodia,maxima,AD,M,22-May-10,USA,Alaska,Aleutian Islands,"Attu I., Alexai Point, east tip",JJW770,40,84,83,26.8,13.3,7.4,6.5,40.4
+36621,Melospiza,melodia,maxima,AHY,M,17-May-02,USA,Alaska,Aleutian Islands,"Attu I., Casco Cove, 52o47'0""N 173o9'27""E",KSW3964,43.2,82.1,77.4,27.7,12.3,7.4,6.1,39.6
+36623,Melospiza,melodia,maxima,AHY,M,15-May-02,USA,Alaska,Aleutian Islands,"Attu I., Gilbert Ridge",KSW3958,45.7,83.6,78.5,27.7,11.7,7.5,5.8,38.2
+36618,Melospiza,melodia,maxima,AHY,M,9-May-04,USA,Alaska,Aleutian Islands,"Attu I., Gilbert Ridge, 52o50'12.6""N 173o16'9.9""E",KGM842,46,85.2,83.6,29.5,12.8,7.8,5.9,40
+36622,Melospiza,melodia,maxima,AHY,M,20-May-02,USA,Alaska,Aleutian Islands,"Attu I., Gilbert Ridge, 52o50'5""N 173o16'12""E",KSW3979,47.3,82.2,77,28.8,12.4,7.6,6,39.7
+27852,Melospiza,melodia,maxima,AD,M,25-May-09,USA,Alaska,Aleutian Islands,"Attu i., Murder Point",JJW218,50,81,81,28.1,12.6,7.4,5.9,40.7
+38590,Melospiza,melodia,maxima,AHY,M,6-May-04,USA,Alaska,Aleutian Islands,"Attu I., S side Murder Pen., 52.7979oN 173.1624oE",KGM833,44.5,84.1,82.7,27.6,12.9,7.2,5.6,38.7
+15116,Melospiza,melodia,maxima,AHY,M,17-May-02,USA,Alaska,Aleutian Islands,Attu Island,KSW3965,44,81,75.2,25.5,12.8,7.4,6,39.6
+36620,Melospiza,melodia,maxima,AHY,M,3-May-01,USA,Alaska,Aleutian Islands,Attu Island,DAR155,46,82.2,77.2,28,12.2,7.3,5.8,39.3
+34715,Melospiza,melodia,maxima,AD,M,2-Jun-02,USA,Alaska,Aleutian Islands,Attu Island,RWD26019,46,82.4,78.5,29.5,12.9,7,6.4,40
+31442,Melospiza,melodia,maxima,AD,M,3-May-01,USA,Alaska,Aleutian Islands,Attu Island,DAR158,44,82.9,78.5,28.2,12.5,7.3,5.4,38.9
+15117,Melospiza,melodia,maxima,AHY,M,17-May-02,USA,Alaska,Aleutian Islands,Attu Island,KSW3963,43.9,83.3,80.1,26.2,12.6,7.3,5.9,38.7
+15115,Melospiza,melodia,maxima,AHY,M,16-May-02,USA,Alaska,Aleutian Islands,Attu Island,KSW3959,45.4,83.6,82.4,26.2,13.3,7.9,6,39.9
+11173,Melospiza,melodia,maxima,AHY,M,24-Aug-99,USA,Alaska,Aleutian Islands,Attu Island,CLP310,45.5,84.4,82.2,26.8,12.1,8,5.7,39.6
+11174,Melospiza,melodia,maxima,AHY,M,9-Sep-99,USA,Alaska,Aleutian Islands,Attu Island,CLP366,48,84.5,83.5,27.1,12.9,7.6,5.5,40.2
+41447,Melospiza,melodia,maxima,AD,M,24-May-01,USA,Alaska,Aleutian Islands,Attu Island,UAMX1663,44,84.8,74.1,28.6,12.5,7.7,5.2,39.6
+11270,Melospiza,melodia,maxima,AHY,M,28-Aug-99,USA,Alaska,Aleutian Islands,Attu Island,CLP338,46.1,85.1,76.1,26.5,12.6,7.5,6,39.5
+31441,Melospiza,melodia,maxima,AD,M,24-May-00,USA,Alaska,Aleutian Islands,Attu Island,CLP453,46.5,85.4,78.9,28.7,12.7,7.9,5.8,39.5
+34547,Melospiza,melodia,maxima,AD,M,28-May-01,USA,Alaska,Aleutian Islands,Attu Island,UAMX1699,43,85.4,80.5,28,13,7,5.5,39.8
+21908,Melospiza,melodia,maxima,AD,M,16-May-04,USA,Alaska,Aleutian Islands,"Attu Island, 52o51'22.0"",173o13'55.5""E,",KGM860,42.6,82.7,75.8,27.6,12,6.6,6.1,38.5
+34544,Melospiza,melodia,maxima,AHY,M,15-May-02,USA,Alaska,Aleutian Islands,"Attu Island, Casco Point",KSW3957,44,84.1,75.3,29,13,7.6,6,39.8
+34545,Melospiza,melodia,maxima,AHY,M,12-May-02,USA,Alaska,Aleutian Islands,"Attu Island, Gilbert Ridge",KSW3942,49.5,79.7,74.5,27.3,12.4,6.9,5.6,38.4
+27880,Melospiza,melodia,maxima,AD,M,5-Jun-09,USA,Alaska,Aleutian Islands,"Kiska I., Kiska Harbor, bluffs S of sub base",JJW282,45,80,70,26.8,11.6,7,5.6,38.8
+27858,Melospiza,melodia,maxima,AD,M,5-Jun-09,USA,Alaska,Aleutian Islands,"Kiska I., Kiska Harbor, bluffs S of sub base",JJW279,47,83,82,27.5,11.2,7,6,37.9
+27882,Melospiza,melodia,maxima,AD,M,5-Jun-09,USA,Alaska,Aleutian Islands,"Kiska I., Kiska Harbor, N side of N. Head",JJW283,45,78,75,28.3,11.9,7.3,5.9,38.7
+27884,Melospiza,melodia,maxima,AD,M,8-Jun-09,USA,Alaska,Aleutian Islands,Little Kiska,JJW323,45.5,79,69,27.9,11.7,7.4,5.9,38.4
+27883,Melospiza,melodia,maxima,AD,M,8-Jun-09,USA,Alaska,Aleutian Islands,Little Kiska,JJW321,42,82,70,27.5,11.7,7,5.8,38.5
+11227,Melospiza,melodia,maxima,AD,M,11-Sep-99,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island",CLP371,40.8,78.1,75.7,24.9,14.3,8,6.6,36.7
+8612,Melospiza,melodia,maxima,AHY,M,5-Sep-97,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island",KSW1862,41.5,78.5,78.6,25.1,11.3,6.9,6.2,33
+15299,Melospiza,melodia,maxima,AHY,M,13-May-02,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island",KSW3949,43.4,79.3,66.8,25.7,12.6,7.3,5.8,38.6
+15358,Melospiza,melodia,maxima,AHY,M,16-May-01,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island",DAR188,46,80,74,25.8,12.7,7.3,6,39.1
+15304,Melospiza,melodia,maxima,AHY,M,24-May-01,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island",UAMX1666,46.4,81.2,79.8,25.3,13.3,7.4,5.9,38.5
+15343,Melospiza,melodia,maxima,AD,M,24-May-01,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island",UAMX1665,43.7,81.3,79.2,28.3,13.4,6.9,5.9,39.9
+15354,Melospiza,melodia,maxima,AHY,M,24-May-01,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island",UAMX1669,46.4,82,79.2,28.9,12,7,5.8,39.7
+14165,Melospiza,melodia,maxima,AHY,M,24-May-01,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island",UAMX1658,48.5,82,76,33.5,13.3,8,5.8,39
+9305,Melospiza,melodia,maxima,AHY,M,2-Sep-99,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island",CLP350,49.3,83.1,83.2,26.1,12.3,7.4,7.6,30.9
+15330,Melospiza,melodia,maxima,AHY,M,14-May-02,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island",KSW3953,45.9,83.2,81.7,27,12.6,7.4,6.3,37.3
+15342,Melospiza,melodia,maxima,AD,M,7-Oct-00,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island",DAR114,45.3,83.3,83.2,33.6,12.2,7.3,6.2,36.7
+8462,Melospiza,melodia,maxima,AHY,M,4-Sep-97,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island",KSW1776,43.7,83.4,79.4,23.9,10.3,8,6.3,37.3
+9302,Melospiza,melodia,maxima,AHY,M,24-Aug-99,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island",CLP309,57.6,83.8,76.5,26.8,12.8,7.4,5,40
+15378,Melospiza,melodia,maxima,AHY,M,16-May-01,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island",DAR177,48,83.9,85,26.7,13,8.1,6.3,39.9
+15356,Melospiza,melodia,maxima,AHY,M,24-May-01,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island",UAMX1661,44,83,78,28,12.5,7.5,5.9,38.9
+15331,Melospiza,melodia,maxima,AHY,M,20-May-02,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island",KSW3978,42.6,84,81.5,27.5,12.3,7.3,6.1,38.8
+15302,Melospiza,melodia,maxima,AHY,M,5-May-01,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island",DAR162,47,84.2,80.6,26.8,13,7.2,5.9,38.9
+15313,Melospiza,melodia,maxima,AHY,M,24-May-01,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island",UAMX1670,47.4,84,75,27.5,14.4,8.4,6.7,39.4
+15352,Melospiza,melodia,maxima,AHY,M,24-May-01,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island",UAMX1671,46.2,85.8,76.1,28.4,13,7.9,5.4,38.9
+8463,Melospiza,melodia,maxima,AHY,M,4-Sep-97,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island",KSW1774,39,87.3,79.8,24.3,8.2,6.9,7,39.5
+20672,Melospiza,melodia,maxima,AHY,M,19-Sep-04,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island, Casco bluffs",REW507,41.4,86,86,28.6,11.8,7,4.5,39
+10073,Melospiza,melodia,maxima,AHY,M,26-Feb-99,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island, Casco Cove",UAMX708,45.4,76.7,78.5,28.3,12.2,6.8,10.3,38.3
+15363,Melospiza,melodia,maxima,AHY,M,18-May-01,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island, Casco Cove",DAR214,50,83,77.9,29.7,13,7,6,39.8
+20674,Melospiza,melodia,maxima,AHY,M,15-Sep-04,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island, Gilbert Ridge",REW699,41.5,83,87,29.2,11.2,7.3,5.1,36.5
+20518,Melospiza,melodia,maxima,AHY,M,17-Sep-04,USA,Alaska,Aleutian Islands,"Near Islands, Attu Island, near Loaf Island",REW501,40.3,83,96,28.7,11.4,7.1,3.5,37.8
+15320,Melospiza,melodia,maxima,AHY,M,8-May-01,USA,Alaska,Aleutian Islands,"Near Islands, Attu Islands",DAR168,49,82.3,79.8,26.8,13.6,7.3,5.8,40
+19048,Melospiza,melodia,maxima,AD,M,22-May-99,USA,Alaska,Aleutian Islands,"Near Islands, Shemya Island",DDG1727,43.8,78,83,28.5,12,7.2,5.7,38.3
+10944,Melospiza,melodia,maxima,AHY,M,14-May-99,USA,Alaska,Aleutian Islands,"Near Islands, Shemya Island",CLP487,44.1,80,76.2,27.1,12.6,7.7,5.9,39.5
+13128,Melospiza,melodia,maxima,AD,M,21-May-99,USA,Alaska,Aleutian Islands,"Near Islands, Shemya Island",DDG1724,43.8,80,79.2,27.2,12.4,7.2,5.1,38.6
+11243,Melospiza,melodia,maxima,AHY,M,28-Feb-00,USA,Alaska,Aleutian Islands,"Near Islands, Shemya Island",DDG1758,44.5,81.4,80.9,28,11,7.4,5.7,37.3
+9418,Melospiza,melodia,maxima,AD,M,5-Jun-99,USA,Alaska,Aleutian Islands,"Near Islands, Shemya Island",CLP040,44.2,82.2,74.1,24.6,12.8,7.9,7.3,39.7
+11244,Melospiza,melodia,maxima,AHY,M,29-Feb-00,USA,Alaska,Aleutian Islands,"Near Islands, Shemya Island",DDG1759,46.3,83.4,84.4,26.6,12.2,6.5,5.8,38.6
+8781,Melospiza,melodia,maxima,AHY,M,2-Jun-98,USA,Alaska,Aleutian Islands,"Rat Islands, Buldir Island",UAMX714,45.7,86.5,81.1,27.5,11.5,7.7,7.5,37.9
+9602,Melospiza,melodia,maxima,AD,M,5-Jun-98,USA,Alaska,Aleutian Islands,"Rat Islands, Semisopochnoi Island",UAMX392,43.7,85,78,27.9,12.5,7.4,6.6,39.2
+27911,Melospiza,melodia,maxima,AD,M,7-Jun-09,USA,Alaska,Aleutian Islands,"Segula I., above auklet colony near Gula Point",JJW310,45.5,81,76,27.5,12.8,7.4,5.8,38.9
+27913,Melospiza,melodia,maxima,AD,M,7-Jun-09,USA,Alaska,Aleutian Islands,"Segula I., above auklet colony near Gula Point",JJW313,46.5,82,81,27.2,11.9,7,6.9,38.3
+27910,Melospiza,melodia,maxima,AD,M,7-Jun-09,USA,Alaska,Aleutian Islands,"Segula I., above auklet colony near Gula Point",JJW311,45.5,84,75,27,11.6,6.5,6.1,38.3
+27907,Melospiza,melodia,maxima,AD,M,7-Jun-09,USA,Alaska,Aleutian Islands,"Segula I., near Zapad Head",JJW305,43,80,75,27.5,12.7,7.8,6.1,38.4
+11363,Melospiza,melodia,maxima,AHY,M,3-Jun-99,USA,Alaska,Aleutian Islands,Shemya Island,CLP032,45.7,79.3,73.5,38.9,13.1,7.4,5.2,39.5
+11825,Melospiza,melodia,maxima,AD,M,15-May-99,USA,Alaska,Aleutian Islands,Shemya Island,DDG1714,44.2,81.4,86.2,26.6,12.4,7.1,5.5,38.5
+11171,Melospiza,melodia,maxima,AHY,M,20-May-99,USA,Alaska,Aleutian Islands,"Shemya Island, North Beach",CLP518,44.5,85.1,79.7,28.7,13.2,8.2,6,39.3
+22257,Melospiza,melodia,maxima,AHY,M,5-Jun-98,USA,Alaska,,Semisopochuo Island,UAMX769,43,84.1,78.9,24.6,11.7,7.4,6.5,38.6
+11381,Melospiza,melodia,sanaka,AHY,M,1-Jul-99,USA,Alaska,Alaska Peninsula,King Cove,CLP173,44.5,81.8,78.8,27.4,12.3,6.9,5.2,38.4
+11362,Melospiza,melodia,sanaka,AHY,M,30-Jun-99,USA,Alaska,Alaska Peninsula,King Cove,CLP167,43.3,82.1,74,25.3,12.2,6.4,5.1,39.2
+37189,Melospiza,melodia,sanaka,AHY,M,1-Jun-15,USA,Alaska,Alaska Peninsula,Sutwik Island,JJW2805,41,83,75.4,27.4,12,7.6,5.3,38.4
+11236,Melospiza,melodia,sanaka,AHY,M,16-May-00,USA,Alaska,Aleutian Islands,"Fox Islands, Bogoslof Island",KSW3369,47.1,81.9,80.4,28.5,12.3,7.4,5.2,36.5
+11237,Melospiza,melodia,sanaka,AHY,M,16-May-00,USA,Alaska,Aleutian Islands,"Fox Islands, Bogoslof Island",KSW3368,47,87.2,82.3,26.5,11.2,7.1,4.9,37.9
+15374,Melospiza,melodia,sanaka,AHY,M,27-Aug-01,USA,Alaska,Aleutian Islands,"Fox Islands, Samalga Island",JMM088,46.3,84.9,81,27.2,12.8,6.9,6.1,38.4
+15334,Melospiza,melodia,sanaka,AHY,M,18-Jun-01,USA,Alaska,Aleutian Islands,"Fox Islands, Ugamak Island",KSW3864,45.9,82,74.8,27.5,12.5,7,6.2,37.6
+18514,Melospiza,melodia,sanaka,AHY,M,18-Jun-01,USA,Alaska,Aleutian Islands,"Fox Islands, Ugamak Island",KSW3855,47.5,82.7,78.6,27.4,12.1,7.3,5.6,39.4
+15384,Melospiza,melodia,sanaka,AHY,M,18-Jun-01,USA,Alaska,Aleutian Islands,"Fox Islands, Ugamak Island",KSW3857,44.7,83.7,79.2,24.3,12.4,7,5.6,39.3
+15335,Melospiza,melodia,sanaka,AHY,M,18-Jun-01,USA,Alaska,Aleutian Islands,"Fox Islands, Ugamak Island",KSW3859,47.2,84.1,75.8,28.4,12.8,7.7,5.9,39.4
+11238,Melospiza,melodia,sanaka,AHY,M,12-May-00,USA,Alaska,Aleutian Islands,"Fox Islands, Unalaska Island",KSW3347,46.3,85.8,83.6,26.5,12.9,7,5.7,39.4
+13903,Melospiza,melodia,sanaka,AD,M,18-Jun-01,USA,Alaska,Aleutian Islands,Ugamak Island,KSW3861,50.2,82.3,78.1,28,12.5,7,5,39.6
+28555,Melospiza,melodia,sanaka,AD,M,18-May-11,USA,Alaska,Kodiak Archipelag,"Chirikof I., bluffs just east of West Point",JJW1093,47,88,84.5,27.7,12.3,6.4,5.2,39.4
+10091,Melospiza,melodia,sanaka,AD,M,30-Jun-99,USA,Alaska,Shumagin Islands,King Cove,CLP169,44.6,84.8,75.7,26.2,11.9,5.8,8,38.1
+10171,Melospiza,melodia,sanaka,AHY,M,7-Jul-99,USA,Alaska,Shumagin Islands,"Popof Island, Sand Point",CLP237,42.7,82.1,73.3,28.5,13.8,6.8,5.6,39.5
+11379,Melospiza,melodia,sanaka,AHY,M,7-Jul-99,USA,Alaska,Shumagin Islands,"Popof Island, Sand Point",CLP235,44.3,83.9,70.2,26.7,13,5.8,5,39.5
+10187,Melospiza,melodia,sanaka,AHY,M,7-Jul-99,USA,Alaska,Shumagin Islands,Sand Point,CLP233,44.8,87.5,90.7,27.9,13.1,6.2,5.8,38.9
+12142,Melospiza,melodia,sanaka,AD,M,7-Jul-99,USA,Alaska,Shumagin Islands,Sand Point,CLP236,48.5,82.8,82.1,28.2,13,7.3,6,38.1
+30144,Melospiza,melodia,sanaka,AHY,M,3-Jun-12,USA,Alaska,,Chirikof I.,JJW1553,46,83.9,74.8,27.2,12.1,6.5,5.8,38.8
+30139,Melospiza,melodia,sanaka,AHY,M,3-Jun-12,USA,Alaska,,Chirikof I.,JJW1555,43,85.1,76.2,26,12.9,12.1,5.4,39.2
+30141,Melospiza,melodia,sanaka,AHY,M,3-Jun-12,USA,Alaska,,Chirikof I.,JJW1558,43.5,86,78.3,27.2,12.4,6.4,5.8,39
+30142,Melospiza,melodia,sanaka,AHY,M,3-Jun-12,USA,Alaska,,Chirikof I.,JJW1560,44,86.2,78.3,25.8,12,6.2,5.2,38.9
+35424,Melospiza,melodia,sanaka,AD,M,14-May-14,USA,Alaska,,"Chirikof I., east side of Southwest Anchorage",JJW2425,45.5,81.9,72.2,27.1,12.8,5.2,5.2,39.9
+35423,Melospiza,melodia,sanaka,AD,M,14-May-14,USA,Alaska,,"Chirikof I., east side of Southwest Anchorage",JJW2426,44.5,82.5,72.5,26.4,13.1,7.2,5,39.9
+35421,Melospiza,melodia,sanaka,AD,M,14-May-14,USA,Alaska,,"Chirikof I., east side of Southwest Anchorage",JJW2424,43.5,85.4,81.5,28.1,12.5,6.8,5.2,39.6
+27876,Melospiza,melodia,sanaka,AD,M,16-May-08,USA,Alaska,,Chirikof Island,UAMX5064,46.5,78,82,27.5,12.6,6.9,5.8,39.7
+27877,Melospiza,melodia,sanaka,AD,M,16-May-08,USA,Alaska,,Chirikof Island,UAMX5065,43.5,81,77,25.3,11.6,6.7,5.6,38.8
+27878,Melospiza,melodia,sanaka,AD,M,16-May-08,USA,Alaska,,Chirikof Island,UAMX5063,48,84,80,26.2,11.9,6.9,5.9,37.2
+31879,Melospiza,melodia,sanaka,AD,M,8-Jul-13,USA,Alaska,,"Chirikof Island, Southwest Anchorage",JJW2066,46.5,79.5,76.4,26.9,12.2,6.6,5,38.8
+31880,Melospiza,melodia,sanaka,AD,M,8-Jul-13,USA,Alaska,,"Chirikof Island, Southwest Anchorage",JJW2067,48,84,80.2,26.2,12.4,6.8,5.5,38
+35415,Melospiza,melodia,sanaka,AD,M,13-May-14,USA,Alaska,,"Chirikof Island, West Point area",JJW2416,41,81.1,74.8,26.7,12.4,6.2,5,38.4
+35416,Melospiza,melodia,sanaka,AD,M,13-May-14,USA,Alaska,,"Chirikof Island, West Point area",JJW2417,47,86.6,81,27.1,13.1,6.7,5.6,39.8
+29243,Melospiza,melodia,sanaka,AD,M,19-May-09,USA,Alaska,,Sanak Island,JJW1312,46,78.6,71.9,28,11.8,6.6,5.6,37.9
+29246,Melospiza,melodia,sanaka,AD,M,19-May-09,USA,Alaska,,Sanak Island,JJW1314,45,80.1,73.8,28,12.1,7,5.7,38.6
+29239,Melospiza,melodia,sanaka,AD,M,19-May-09,USA,Alaska,,Sanak Island,JJW1313,44,81.5,73.8,26.9,12.3,6.9,6,39.3
+28578,Melospiza,melodia,insignis,AD,M,1-Jul-11,USA,Alaska,Kodiak Archipelag,"Barren Is., Ushagat I.",JJW1142,40,78.2,66.1,26.4,11.4,6.7,5.4,37.7
+35663,Melospiza,melodia,insignis,AHY,M,1-Mar-14,USA,Alaska,Kodiak Archipelag,"Kalsin Bay, Queer Island",JJW2468,43,84,82.5,26.9,11.4,6.3,5.2,37.4
+38749,Melospiza,melodia,insignis,AHY,M,25-May-16,USA,Alaska,Kodiak Archipelag,"Kalsin Bay, Svitlak Island",JJW3165,41,82.5,79.4,27.3,12.6,6.3,5.5,38.1
+30366,Melospiza,melodia,insignis,AHY,M,16-May-12,USA,Alaska,Kodiak Archipelag,"Kodiak city, K.I.M.A.",JJW1465,39,78.9,74.7,25.6,12.3,6.2,5.3,38.6
+28552,Melospiza,melodia,insignis,AD,M,19-May-11,USA,Alaska,Kodiak Archipelag,"Monashka Bay, Jack's yard",JJW1095,41,82.7,78.1,26.5,13,6.8,5.4,39.3
+30814,Melospiza,melodia,insignis,AHY,M,3-Jan-13,USA,Alaska,Kodiak Archipelag,Narrow Cape,JJW1862,47.5,82.2,76.9,25.8,11.9,6.6,5.5,39.5
+28549,Melospiza,melodia,insignis,AD,M,24-May-11,USA,Alaska,Kodiak Archipelag,Puffin I. (mouth of Womens Bay),JJW1120,40,80.7,75.3,26.1,11.8,6.2,5.6,38.1
+35664,Melospiza,melodia,insignis,AHY,M,7-Jun-14,USA,Alaska,Kodiak Archipelag,"Shuyak I., between Western Inlet and Wonder Bay",JJW2455,40,79.7,76.2,26.2,11.2,6.6,5.1,36.3
+35666,Melospiza,melodia,insignis,AD,M,7-Jun-14,USA,Alaska,Kodiak Archipelag,"Shuyak I., between Western Inlet and Wonder Bay",JJW2457,39,82,72.8,26,11.7,6.6,4.5,37.3
+31498,Melospiza,melodia,insignis,AHY,M,25-May-13,USA,Alaska,Kodiak Archipelag,"Triplet Islands, southern most island",JJW1992,39,77.7,71.7,25.8,12.1,6.3,5.1,37.9
+11182,Melospiza,melodia,caurina,AHY,M,2-May-00,USA,Alaska,Copper R Delta,Alaganik Slough,UAMX1106,28.6,71.8,64.1,24.1,10.4,6.1,5.1,36
+11180,Melospiza,melodia,caurina,AHY,M,2-May-00,USA,Alaska,Copper R Delta,Alaganik Slough Rd.,UAMX1103,28.1,71.9,66.6,22.4,11.3,4.8,4.5,37
+11223,Melospiza,melodia,caurina,AHY,M,13-May-99,USA,Alaska,Copper R Delta,Alaganik Slough Road,CLP023,27.6,71,82.5,24,10.2,5.9,4.6,39.9
+11103,Melospiza,melodia,caurina,AHY,M,3-May-00,USA,Alaska,Copper R Delta,Alaganik Slough Road,UAMX1122,27.6,71.6,63.7,26,11,6.4,4.9,36
+11101,Melospiza,melodia,caurina,AHY,M,2-May-00,USA,Alaska,Copper R Delta,Alaganik Slough Road,UAMX1102,27.6,71.8,65.5,22.5,11.6,6.4,5.2,36.3
+11231,Melospiza,melodia,caurina,AD,M,14-May-99,USA,Alaska,Copper R Delta,Alaganik Slough Road,CLP026,29.1,72.6,67.2,24.3,11.9,6.1,5.6,33.9
+11104,Melospiza,melodia,caurina,AHY,M,3-May-00,USA,Alaska,Copper R Delta,Alaganik Slough Road,UAMX1121,27.6,72.9,68.9,25.8,10.3,6.5,5.7,35.8
+11141,Melospiza,melodia,caurina,AHY,M,4-May-00,USA,Alaska,Copper R Delta,Hartney Bay,UAMX1141,32.6,74.8,66.6,27.3,11.2,6.4,5.2,37.3
+11361,Melospiza,melodia,caurina,AHY,M,13-May-99,USA,Alaska,Copper River Delt,Alaganik Slough Rd,CLP022,31,74.9,66.1,23.3,10.7,6.7,5.5,37
+11382,Melospiza,melodia,caurina,AHY,M,11-May-99,USA,Alaska,Copper River Delt,Copper River Delta,CLP008,30,70.9,69.4,24.4,10.5,5.5,5.2,30.3
+11384,Melospiza,melodia,caurina,AHY,M,12-May-99,USA,Alaska,Copper River Delt,Copper River Delta,CLP020,26.8,71,64.5,24.6,9.5,6,4.8,34.6
+11383,Melospiza,melodia,caurina,AHY,M,12-May-99,USA,Alaska,Copper River Delt,Copper River Delta,CLP018,25.1,74.2,66.4,23.6,10.7,6.4,4.8,35.4
+30365,Melospiza,melodia,caurina,AHY,M,22-Apr-12,USA,Alaska,Prince Wm Sound,"Valdez, harbor area",JJW1608,29,73.8,67.4,24.5,10.3,5.9,4.7,35.7
+30364,Melospiza,melodia,caurina,AHY,M,22-Apr-12,USA,Alaska,Prince Wm Sound,"Valdez, harbor area, 61.1278oN 146.3372oW",JJW1585,30,74.6,67.6,25.2,10.7,6.2,5.1,36.5
+14941,Melospiza,melodia,caurina,AD,M,20-May-02,USA,Alaska,Prince Wm Sound,"Valdez, Robe Lake",UAMX2530,28.5,73,65,23.9,10.3,5.9,4.9,35.1
+10652,Melospiza,melodia,caurina,AHY,M,2-May-00,USA,Alaska,Southeast,Copper River Delta,UAMX1104,27.5,70.8,64.6,23.9,10.3,6,5,34.9
+11046,Melospiza,melodia,caurina,AD,M,3-May-00,USA,Alaska,,Copper River Delta,UAMX1124,26.7,72,65.1,22.3,11.3,6.4,5.3,35.6
+13944,Melospiza,melodia,rufina,AHY,M,25-Jun-01,USA,Alaska,Alexander Archipe,Gravina Island,UAMX1843,27,62.4,59.9,22.4,18.7,6,5.7,32.7
+13438,Melospiza,melodia,rufina,AD,M,26-Jun-01,USA,Alaska,Alexander Archipe,Gravina Island,UAMX1856,25,67,64,23.9,9.8,6,4.7,33.1
+13886,Melospiza,melodia,rufina,AD,M,26-Jun-01,USA,Alaska,Alexander Archipe,Gravina Island,UAMX1850,27.4,70.2,60.6,24.4,9.4,6.4,5.2,33.4
+13941,Melospiza,melodia,rufina,AHY,M,25-Jun-01,USA,Alaska,Alexander Archipe,Gravina Island,UAMX1844,27.2,70.3,65.2,27.2,9.5,6.4,5.6,34.5
+13916,Melospiza,melodia,rufina,AD,M,25-Jun-01,USA,Alaska,Alexander Archipe,Gravina Island,UAMX1849,26.2,71.5,68.5,23.6,9.9,11.4,5.4,34
+13915,Melospiza,melodia,rufina,AD,M,27-Jun-01,USA,Alaska,Alexander Archipe,Prince of Wales Island,UAMX1877,26.3,64.2,61.9,25.4,9.7,5.6,5.9,33.9
+13943,Melospiza,melodia,rufina,AHY,M,27-Jun-01,USA,Alaska,Alexander Archipe,Prince of Wales Island,UAMX1864,27.5,65.4,60.8,24.5,9.8,6,5.3,34.9
+13945,Melospiza,melodia,rufina,AHY,M,30-Jun-01,USA,Alaska,Alexander Archipe,Prince of Wales Island,UAMX1921,25.5,66.8,64.5,24.4,10.3,6,5,35.2
+13913,Melospiza,melodia,rufina,AD,M,27-Jun-01,USA,Alaska,Alexander Archipe,Prince of Wales Island,UAMX1866,28.9,67.8,63.3,24.8,9.3,6.3,5.6,34.2
+15193,Melospiza,melodia,rufina,AD,M,29-Jun-01,USA,Alaska,Alexander Archipe,Prince of Wales Island,UAMX1903,24.7,67.8,63.8,22.4,10,6.1,5.6,39
+13463,Melospiza,melodia,rufina,AD,M,29-Jun-01,USA,Alaska,Alexander Archipe,Prince of Wales Island,UAMX1909,27.2,68,66,23.7,10.1,6.3,5.6,35
+13938,Melospiza,melodia,rufina,AD,M,28-Jun-01,USA,Alaska,Alexander Archipe,Prince of Wales Island,UAMX1896,28.9,68,68.2,25.7,11.2,6,5.9,34.3
+13953,Melospiza,melodia,rufina,AHY,M,28-Jun-01,USA,Alaska,Alexander Archipe,Prince of Wales Island,UAMX1888,28.4,68.2,64,24.3,11.2,6.1,5.7,35.8
+15086,Melospiza,melodia,rufina,AHY,M,29-Jun-01,USA,Alaska,Alexander Archipe,Prince of Wales Island,UAMX1914,31.3,68.5,65,24.7,9.2,6.2,5,33.7
+14658,Melospiza,melodia,rufina,AHY,M,29-Jun-01,USA,Alaska,Alexander Archipe,Prince of Wales Island,UAMX1911,28.2,68.6,70.2,22.2,9.7,6.2,4.8,33.8
+13952,Melospiza,melodia,rufina,AD,M,28-Jun-01,USA,Alaska,Alexander Archipe,Prince of Wales Island,UAMX1895,26.6,69.5,66.4,22.4,10.8,5.7,5,39.9
+14714,Melospiza,melodia,rufina,AHY,M,29-Jun-01,USA,Alaska,Alexander Archipe,Prince of Wales Island,UAMX1907,27.4,69.6,67.1,23.8,9.8,6.3,4.4,33.3
+13912,Melospiza,melodia,rufina,AD,M,27-Jun-01,USA,Alaska,Alexander Archipe,Prince of Wales Island,UAMX1868,29,70.1,63.4,23.7,9.8,6,5.1,34.4
+13911,Melospiza,melodia,rufina,AD,M,27-Jun-01,USA,Alaska,Alexander Archipe,Prince of Wales Island,UAMX1867,29.2,71.1,69.9,24.7,10.1,6.6,5.7,34.5
+13937,Melospiza,melodia,rufina,AD,M,28-Jun-01,USA,Alaska,Alexander Archipe,Prince of Wales Island,UAMX1889,27,72.6,65.4,24.7,10.4,6.1,5,33.5
+11824,Melospiza,melodia,rufina,AHY,M,10-Nov-98,USA,Alaska,Alexander Archipe,"Prince of Wales, Stoney Creek Bridge on 2050 rd",CLP542,27.5,68.9,62.7,20.2,9.9,6.1,4.9,34.7
+11517,Melospiza,melodia,rufina,AD,M,99 Jun 1993,USA,Alaska,Alexander Archipe,"Revillagigedo I, Ketchikan, Ward Lake",CLP540,26.3,65.7,64.2,23.7,9.9,6.1,5.1,33.6
+11516,Melospiza,melodia,rufina,AD,M,3-Aug-00,USA,Alaska,Alexander Archipe,"Revillagigedo Island, Traitor's Creek",ABJ068,24.2,65.9,70.3,24.2,9.3,6.2,5.1,33.7
+13910,Melospiza,melodia,rufina,AD,M,18-Jun-99,Canada,British Columbia,Queen Charlotte I,53 30.9N  132 19.8W,RWD25341,28.6,69.4,64.3,25,10.6,6.7,5.5,35
+11552,Melospiza,melodia,rufina,AHY,M,13-Jun-99,Canada,British Columbia,Queen Charlotte I,Graham Island,TMB194,28.9,70.9,65.3,23.4,10.2,6.3,5.1,33.7
+13919,Melospiza,melodia,rufina,AD,M,15-Jun-99,Canada,British Columbia,Queen Charlotte I,Graham Island,RWD25323,28.2,71.1,66.1,24.4,11.2,6.5,4.9,35.4
+11550,Melospiza,melodia,rufina,AHY,M,12-Jun-98,Canada,British Columbia,Queen Charlotte I,Graham Island,KSW2349,30,72.7,63.3,23.9,10.1,6.5,4.6,35.4
+11179,Melospiza,melodia,rufina,AHY,M,15-Jun-99,Canada,British Columbia,Queen Charlotte I,Graham Island,UAMX1057,30.6,74.3,71.8,25.4,11.9,6.8,5,36.1
+11549,Melospiza,melodia,rufina,AHY,M,10-Jun-98,Canada,British Columbia,Queen Charlotte I,Graham Island,KSW2315,30.1,74.8,66.7,23.6,10.2,6.9,4.3,34.6
+11546,Melospiza,melodia,rufina,AHY,M,14-Jun-99,Canada,British Columbia,Queen Charlotte I,Graham Island,KSW3334,28.3,74.9,68.9,23.2,11,6.2,4.4,35.3
+11547,Melospiza,melodia,rufina,AHY,M,10-Jun-98,Canada,British Columbia,Queen Charlotte I,Graham Island,KSW2328,28.9,75,69.8,23.9,10.7,6.7,4.1,35.2
+13909,Melospiza,melodia,rufina,AD,M,17-Jun-99,Canada,British Columbia,Queen Charlotte I,"Graham Island, 53 30.9N  132 19.8W",RWD25337,29.5,71.9,68.9,28.8,11.1,6.2,4.9,35.4
+13908,Melospiza,melodia,rufina,AD,M,18-Jun-99,Canada,British Columbia,Queen Charlotte I,"Graham Island, 53 30.9N  132 19.8W",TMB235,29,74.1,70.5,25.8,10.4,6.1,4.4,34.4
+11548,Melospiza,melodia,rufina,AHY,M,10-Jun-98,Canada,British Columbia,Queen Charlotte I,"Graham Island, Rennell Sound",KSW2322,30.9,71.4,63.6,23,10.4,6.4,4.7,36.2
+13080,Melospiza,melodia,rufina,AHY,M,17-Jun-99,Canada,British Columbia,Queen Charlotte I,"Graham Island, Yakoun Lake Road",TMB225,28.8,70.6,68,24.3,11.4,6.4,5.4,36.2
+13079,Melospiza,melodia,rufina,AHY,M,17-Jun-99,Canada,British Columbia,Queen Charlotte I,"Graham Island, Yakoun Lake Road",TMB227,30.6,71.9,68.5,24.9,11.8,7,5.1,36
+35795,Melospiza,melodia,rufina,AHY,M,29-Apr-14,USA,Alaska,Southeast,"Prince of Wales I., south of Ratz Harbor",JJW2485,26.4,67.2,61.2,24.3,9.3,5.7,5.1,33.9
+14944,Melospiza,melodia,rufina,AD,M,29-Jun-01,USA,Alaska,Southeast,Prince of Wales Island,UAMX1913,28.4,65.1,65.4,25.9,9.9,5.8,4.7,33.9
+14942,Melospiza,melodia,rufina,AD,M,29-Jun-01,USA,Alaska,Southeast,Prince of Wales Island,UAMX1906,24.8,70.8,66.4,23.6,9.5,6.5,5.1,33.3
+14943,Melospiza,melodia,rufina,AD,M,24-Jun-01,USA,Alaska,Southeast,Prince of Wales Island,UAMX1904,26.2,70,66,23.7,9.8,6.7,5.5,34.6
+13920,Melospiza,melodia,rufina,AD,M,17-Jun-99,Canada,British Columbia,Queen Charlotte I,"Yakoun Lake Road, 53 21.5N  132 17.2W",TMB226,27.7,72.9,68.9,25.2,25.2,5.8,5,35.3

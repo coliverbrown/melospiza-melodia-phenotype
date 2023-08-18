@@ -1,10 +1,10 @@
 # Analyzing Phenotype in R
 ## Caitlyn Oliver Brown
-### Last update: 10 Dec 2022
+### Last update: 18 Aug 2023
 
 <br>
 
-Repo for analyzing phenotypic differences in Alaskan *Melospiza melodia* subspecies. Includes R script, raw data file, and figures produced in the script.
+Repo for analyzing phenotypic differences in Alaskan *Melospiza melodia* subspecies. Includes R script, raw data file, cleaned data file, and figures produced in the script.
 
 ---
 
@@ -24,7 +24,14 @@ Repo for analyzing phenotypic differences in Alaskan *Melospiza melodia* subspec
     - split "SKINMEAS" column into seven columns with individual measurements
     - filter to include adult males
     - remove outliers
+    - export cleaned data table into csv file
 2. Summary statistics for each subspecies
 3. Plotting
     - Plot boxplot for each measurement
     - Plot PCA
+4. MANOVA and ANOVA
+    - MANOVA test to identify statistical significance (all variables of interest)
+    - ANOVA test for each individual variable of interest
+    - Tukey's HSD test to determine which subspecies pair has statistically significance difference
+5. Correlations
+    - Correlations test of variables of interest
