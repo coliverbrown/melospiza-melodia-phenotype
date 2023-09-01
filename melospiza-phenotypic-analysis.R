@@ -125,7 +125,7 @@ mm_final <- read.csv("melospiza-melodia-filtered.csv") ##edited raw data
 
 
 ########## Summary Statistics ##########
-
+### Mass statistics
 mm_final %>%
   group_by(SUBSPECIES) %>%
   summarize(mean_mass = mean(MASS))
@@ -137,6 +137,19 @@ mm_final %>%
 #3 maxima          46.2
 #4 rufina          27.9
 #5 sanaka          45.4
+
+mm_final %>%
+  group_by(SUBSPECIES) %>% 
+  summarise(sd_mass = sd(MASS))
+# SUBSPECIES sd_mass
+# <chr>        <dbl>
+#   1 caurina       1.77
+# 2 insignis      2.61
+# 3 maxima        2.71
+# 4 rufina        1.75
+# 5 sanaka        2.06
+
+### WCH statistics 
 mm_final %>% 
   group_by(SUBSPECIES) %>% 
   summarize(mean_WCH = mean(WCH))
@@ -147,6 +160,19 @@ mm_final %>%
 #3 maxima         82.7
 #4 rufina         69.7
 #5 sanaka         83.3
+
+mm_final %>% 
+  group_by(SUBSPECIES) %>% 
+  summarize(sd_WCH = sd(WCH))
+# SUBSPECIES sd_WCH
+# <chr>       <dbl>
+#   1 caurina      1.43
+# 2 insignis     2.14
+# 3 maxima       3.04
+# 4 rufina       3.03
+# 5 sanaka       2.45
+
+### TL Statistics
 mm_final %>% 
   group_by(SUBSPECIES) %>% 
   summarize(mean_TL = mean(TL))
@@ -157,6 +183,19 @@ mm_final %>%
 #3 maxima        78.9
 #4 rufina        65.8
 #5 sanaka        77.8
+
+mm_final %>% 
+  group_by(SUBSPECIES) %>% 
+  summarize(sd_TL = sd(TL))
+# SUBSPECIES sd_TL
+# <chr>      <dbl>
+#   1 caurina     4.28
+# 2 insignis    4.52
+# 3 maxima      4.27
+# 4 rufina      3.01
+# 5 sanaka      4.28
+
+### TS statistics
 mm_final %>% 
   group_by(SUBSPECIES) %>% 
   summarize(mean_TS = mean(TS))
@@ -167,6 +206,19 @@ mm_final %>%
 #3 maxima        27.6
 #4 rufina        24.2
 #5 sanaka        27.0
+
+mm_final %>% 
+  group_by(SUBSPECIES) %>% 
+  summarize(sd_TS = sd(TS))
+# SUBSPECIES sd_TS
+# <chr>      <dbl>
+#   1 caurina    1.32 
+# 2 insignis   0.530
+# 3 maxima     2.04 
+# 4 rufina     1.41 
+# 5 sanaka     0.985
+
+### BL Statistics
 mm_final %>% 
   group_by(SUBSPECIES) %>% 
   summarize(mean_BL = mean(BL))
@@ -177,6 +229,19 @@ mm_final %>%
 #3 maxima        12.4
 #4 rufina        10.8
 #5 sanaka        12.4
+
+mm_final %>% 
+  group_by(SUBSPECIES) %>% 
+  summarize(sd_BL = sd(BL))
+# SUBSPECIES sd_BL
+# <chr>      <dbl>
+#   1 caurina    0.600
+# 2 insignis   0.570
+# 3 maxima     1.34 
+# 4 rufina     2.75 
+# 5 sanaka     0.509
+
+### BLH Statistics
 mm_final %>% 
   group_by(SUBSPECIES) %>% 
   summarize(mean_BLH = mean(BLH))
@@ -187,6 +252,19 @@ mm_final %>%
 #3 maxima         7.53
 #4 rufina         6.37
 #5 sanaka         6.89
+
+mm_final %>% 
+  group_by(SUBSPECIES) %>% 
+  summarize(sd_BLH = sd(BLH))
+# SUBSPECIES sd_BLH
+# <chr>       <dbl>
+#   1 caurina     0.445
+# 2 insignis    0.222
+# 3 maxima      1.08 
+# 4 rufina      0.868
+# 5 sanaka      1.04 
+
+### BLW statistics
 mm_final %>% 
   group_by(SUBSPECIES) %>% 
   summarize(mean_BLW = mean(BLW))
@@ -197,6 +275,19 @@ mm_final %>%
 #3 maxima         5.99
 #4 rufina         5.1 
 #5 sanaka         5.56
+
+mm_final %>% 
+  group_by(SUBSPECIES) %>% 
+  summarize(sd_BLW = sd(BLW))
+# SUBSPECIES sd_BLW
+# <chr>       <dbl>
+#   1 caurina     0.341
+# 2 insignis    0.317
+# 3 maxima      0.772
+# 4 rufina      0.448
+# 5 sanaka      0.559
+
+### SKL Statistics
 mm_final %>% 
   group_by(SUBSPECIES) %>% 
   summarize(mean_SKL = mean(SKL))
@@ -207,6 +298,17 @@ mm_final %>%
 #3 maxima         38.8
 #4 rufina         34.8
 #5 sanaka         38.8
+
+mm_final %>% 
+  group_by(SUBSPECIES) %>% 
+  summarize(sd_SKL = sd(SKL))
+# SUBSPECIES sd_SKL
+# <chr>       <dbl>
+#   1 caurina     1.93 
+# 2 insignis    0.952
+# 3 maxima      1.54 
+# 4 rufina      1.41 
+# 5 sanaka      0.804
 
 ########## STEP 3: Plotting- Box Plots ##########
 
