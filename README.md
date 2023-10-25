@@ -17,6 +17,10 @@ Repo for analyzing phenotypic differences in Alaskan *Melospiza melodia* subspec
 - Color-blind friendly pallete from https://personal.sron.nl/~pault/data/colourschemes.pdf
 <br>
 
+### Important Files in Repository
+- `melospiza-melodia-fullflat-raw.csv` raw data
+- `melospiza-melodia-filtered.csv` filtered data used for analysis
+
 ### Steps in script analysis
 
 1. Clean raw data <br>

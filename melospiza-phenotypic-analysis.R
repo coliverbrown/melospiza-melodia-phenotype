@@ -368,9 +368,9 @@ k <- ggplot(data=mm_final, aes(order, SKL))+
 # theme_set(theme_bw())
 theme_update(panel.background = element_rect(fill = "white", color = "black"),
              axis.title.x = element_blank(),
-             axis.text.x = element_text(size = 15),
-             axis.title.y = element_text(size =20),
-             axis.text.y =element_text(size=15))
+             axis.text.x = element_text(size = 12),
+             axis.title.y = element_text(size =15),
+             axis.text.y =element_text(size=12))
 
 
 figure <-ggarrange(m, w, t, s, b, h, d, k,
@@ -378,12 +378,8 @@ figure <-ggarrange(m, w, t, s, b, h, d, k,
 
 figure
 
-dev.copy2pdf(file = "./melospiza-boxplots4.pdf",
-             width = 12, height = 8, bg = "white", compress = F, out.type = "pdf")
-
-ggsave("mass-plot.png", plot=last_plot(), device=NULL, path=NULL,
-       scale=1, width=12, height=8, dpi=300, limitsize=TRUE, bg = "white")
-
+dev.copy2pdf(file = "./melospiza-boxplots5.pdf",
+             width = 11, height = 8.5, bg = "white", compress = T, out.type = "pdf")
 
 
 ########## Plotting- PCA ##########
@@ -405,8 +401,7 @@ ggord(mm_final_pca, mm_final$order,
 
 
 
-
-dev.copy2pdf(file = "./pca_plot.pdf", width = 10, height = 10, bg = "white", compress = F, out.type= "pdf")
+dev.copy2pdf(file = "./pca_plot.pdf", width = 8.5, height = 11, bg = "white", compress = F, out.type= "pdf")
 
 ggsave("pca_plot.png", plot=last_plot(), device=NULL, path=NULL,
        scale=1, width=12, height=8, dpi=300, limitsize=TRUE, bg = "white")
