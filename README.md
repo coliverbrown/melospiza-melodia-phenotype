@@ -1,10 +1,10 @@
 # Analyzing Phenotype in R
 ## Caitlyn Oliver Brown
 ### Last update: 18 Aug 2023
-
+[![DOI](https://zenodo.org/badge/575142379.svg)](https://zenodo.org/doi/10.5281/zenodo.10994577)
 <br>
 
-Repo for analyzing phenotypic differences in Alaskan *Melospiza melodia* subspecies. Includes R script, raw data file, cleaned data file, and figures produced in the script.
+Repo for analyzing phenotypic differences in *Melospiza melodia* subspecies. Includes R script, raw data file, cleaned data file, and figures produced in the script.
 
 ---
 

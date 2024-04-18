@@ -392,19 +392,28 @@ mm_final_pca$rotation <- mm_final_pca$rotation *9 ## make the arrows on the PCA 
 
 
 
-ggord(mm_final_pca, mm_final$order, 
+ord_plot <-ggord(mm_final_pca, mm_final$order, 
       cols= col.pallete,
       xlims = c(-6,7), ylims = c(-10, 8), veclsz = 0.75,
       grp_title = "subspecies"
-      ) +
-  scale_shape_manual(values = c(21,25,22,23,24))
+      ) 
+ord_plot + 
+  scale_shape_manual(values = c(21, 25, 22, 23, 24)) +
+  theme(axis.text.x = element_text(size = 16),  # Adjust the size of x-axis labels
+        axis.text.y = element_text(size = 16),   # Adjust the size of y-axis labels
+        legend.text = element_text(size = 16),  # Adjust the size of legend text
+        legend.title = element_text(size = 18),  # Adjust the size of legend title
+        axis.title.x = element_text(size = 18),     # Adjust the size of x-axis title
+        axis.title.y = element_text(size = 18)      # Adjust the size of y-axis title
+  )
 
 
+
+ggsave("pca_plot-present.png", plot=last_plot(), device=NULL, path=NULL,
+       scale=1, width=12, height=8, dpi=300, limitsize=TRUE, bg = "white")
 
 dev.copy2pdf(file = "./pca_plot.pdf", width = 8.5, height = 11, bg = "white", compress = F, out.type= "pdf")
 
-ggsave("pca_plot.png", plot=last_plot(), device=NULL, path=NULL,
-       scale=1, width=12, height=8, dpi=300, limitsize=TRUE, bg = "white")
 
 
 leg <- get_legend(pca)
