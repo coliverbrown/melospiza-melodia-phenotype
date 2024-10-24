@@ -26,21 +26,22 @@ source("C:/Users/brown/GitHub/CleanORNISFull/skinmeas-split-fun.R") ## function 
 
 mm_full <- read.csv("melospiza-melodia-fullflat-raw.csv") ##unedited raw data
 
+
 ## Use the skin.meas.split function to separate SKINMEAS column and add NAs
 
 for (i in 1:dim(mm_full)[1]){
   temp <- skin.meas.split(mm_full[i,"SKINMEAS"]) 
   if(length(temp) >= 1) {
-    mm_full[i,29:35] <- temp
+    mm_full[i,25:31] <- temp
     }
   else {
-    mm_full[i,29:35]<- c(rep(NA,7))
+    mm_full[i,25:31]<- c(rep(NA,7))
     }
  
 } 
 
 ## Select columns of interest
-mm_select <- mm_full[,c(1,4,6,7,18,29:35)]
+mm_select <- mm_full[,c(1,4,6,7,14,25:31)]
 colnames(mm_select) <- c("CATSFX","SUBSPECIES","AGE","SEX","MASS","WCH","TL","TS","BL","BLH","BLW","SKL")
 
 ## Filter data frame to only include adults, after hatch years, and males
@@ -371,17 +372,17 @@ theme_update(panel.background = element_rect(fill = "white", color = "black"),
              axis.text.x = element_text(size = 12),
              axis.title.y = element_text(size =15),
              axis.text.y =element_text(size=12))
-
+png("boxplots-for-defense.png", width=11, height = 10, units = 'in', res = 1200)
 
 figure <-ggarrange(m, w, t, s, b, h, d, k,
                     labels = c("a", "b", "c", "d", "e", "f","g","h"))
 
 figure
 
-dev.copy2pdf(file = "./melospiza-boxplots5.pdf",
-             width = 11, height = 8.5, bg = "white", compress = T, out.type = "pdf")
+#dev.copy2pdf(file = "./melospiza-boxplots5.pdf",
+#             width = 11, height = 8.5, bg = "white", compress = T, out.type = "pdf")
 
-
+dev.off()
 ########## Plotting- PCA ##########
 
 
@@ -397,6 +398,9 @@ ord_plot <-ggord(mm_final_pca, mm_final$order,
       xlims = c(-6,7), ylims = c(-10, 8), veclsz = 0.75,
       grp_title = "subspecies"
       ) 
+
+png("pca-for-defense.png", width = 10, height = 9, res = 300, units = "in")
+
 ord_plot + 
   scale_shape_manual(values = c(21, 25, 22, 23, 24)) +
   theme(axis.text.x = element_text(size = 16),  # Adjust the size of x-axis labels
@@ -409,11 +413,11 @@ ord_plot +
 
 
 
-ggsave("pca_plot-present.png", plot=last_plot(), device=NULL, path=NULL,
-       scale=1, width=12, height=8, dpi=300, limitsize=TRUE, bg = "white")
+#ggsave("pca_plot-present.png", plot=last_plot(), device=NULL, path=NULL,
+#       scale=1, width=12, height=8, dpi=300, limitsize=TRUE, bg = "white")
 
-dev.copy2pdf(file = "./pca_plot.pdf", width = 8.5, height = 11, bg = "white", compress = F, out.type= "pdf")
-
+#dev.copy2pdf(file = "./pca_plot.pdf", width = 8.5, height = 11, bg = "white", compress = F, out.type= "pdf")
+dev.off()
 
 
 leg <- get_legend(pca)
@@ -543,7 +547,7 @@ tar.tuk
 #rufina-caurina   -0.0143472 -1.3791094  1.3504150 0.9999998 
 #sanaka-caurina    2.7931092  1.3944801  4.1917384 0.0000011 *
 #maxima-insignis   1.3488710 -0.2063816  2.9041236 0.1231446 
-#rufina-insignis  -2.0331707 -3.7017719 -0.3645696 0.0083200
+#rufina-insignis  -2.0331707 -3.7017719 -0.3645696 0.0083200 *
 #sanaka-insignis   0.7742857 -0.9221274  2.4706988 0.7187650 
 #rufina-maxima    -3.3820417 -4.2343536 -2.5297298 0.0000000 *
 #sanaka-maxima    -0.5745853 -1.4801366  0.3309661 0.4085809
