@@ -18,6 +18,7 @@ library(tidyverse)
 library(ggplot2)
 library(ggord)
 library(ggpubr)
+library(ggsignif)
 source("C:/Users/brown/GitHub/CleanORNISFull/skinmeas-split-fun.R") ## function to clean skin measurements column
 
 ########## Data clean-up and manipulation ##########
@@ -335,8 +336,7 @@ mm_final$order <- factor(mm_final$SUBSPECIES, levels =c("maxima","sanaka","insig
 
 m <- ggplot(data=mm_final, aes(order, MASS))+
       geom_boxplot(color = 'black', fill = col.pallete)+
-      labs(x = "Subspecies",y= "Mass (g)") 
-    
+      labs(x = "Subspecies",y= "Mass (g)")
 
 w <- ggplot(data=mm_final, aes(order, WCH))+
      geom_boxplot(color = 'black', fill = col.pallete)+
@@ -348,15 +348,15 @@ t <- ggplot(data=mm_final, aes(order, TL))+
 
 s <- ggplot(data=mm_final, aes(order, TS))+
   geom_boxplot(color = 'black', fill = col.pallete)+
-  labs(y = "Tarsus Length(mm)") 
+  labs(y = "Tarsus Length (mm)") 
  
 b <- ggplot(data=mm_final, aes(order, BL))+
   geom_boxplot(color = 'black', fill = col.pallete)+
-  labs(y = "Bill Length(mm)") 
+  labs(y = "Bill Length (mm)") 
 
 h <- ggplot(data=mm_final, aes(order, BLH))+
   geom_boxplot(color = 'black', fill = col.pallete)+
-  labs(y = "Bill Height(mm)") 
+  labs(y = "Bill Height (mm)") 
 
 d <- ggplot(data=mm_final, aes(order, BLW))+
   geom_boxplot(color = 'black', fill = col.pallete)+
@@ -369,11 +369,12 @@ k <- ggplot(data=mm_final, aes(order, SKL))+
 # theme_set(theme_bw())
 theme_update(panel.background = element_rect(fill = "white", color = "black"),
              axis.title.x = element_blank(),
-             axis.text.x = element_text(size = 12),
+             axis.text.x = element_text(size = 12, face = 'italic'),
              axis.title.y = element_text(size =15),
              axis.text.y =element_text(size=12))
-png("boxplots-for-defense.png", width=11, height = 10, units = 'in', res = 1200)
 
+# png("m_melodia_boxplots.png", width=11, height = 10, units = 'in', res = 1200)
+pdf("m_melodia_boxplots.pdf", width = 11, height =10)
 figure <-ggarrange(m, w, t, s, b, h, d, k,
                     labels = c("a", "b", "c", "d", "e", "f","g","h"))
 
@@ -399,13 +400,14 @@ ord_plot <-ggord(mm_final_pca, mm_final$order,
       grp_title = "subspecies"
       ) 
 
-png("pca-for-defense.png", width = 10, height = 9, res = 300, units = "in")
+#png("m_melodia_PCA.png", width = 10, height = 9, res = 300, units = "in")
+pdf("m_melodia_PCA.pdf")
 
 ord_plot + 
   scale_shape_manual(values = c(21, 25, 22, 23, 24)) +
   theme(axis.text.x = element_text(size = 16),  # Adjust the size of x-axis labels
         axis.text.y = element_text(size = 16),   # Adjust the size of y-axis labels
-        legend.text = element_text(size = 16),  # Adjust the size of legend text
+        legend.text = element_text(size = 16, face = 'italic'),  # Adjust the size of legend text and make text italic
         legend.title = element_text(size = 18),  # Adjust the size of legend title
         axis.title.x = element_text(size = 18),     # Adjust the size of x-axis title
         axis.title.y = element_text(size = 18)      # Adjust the size of y-axis title
