@@ -373,10 +373,10 @@ theme_update(panel.background = element_rect(fill = "white", color = "black"),
              axis.title.y = element_text(size =15),
              axis.text.y =element_text(size=12))
 
-# png("m_melodia_boxplots.png", width=11, height = 10, units = 'in', res = 1200)
-pdf("m_melodia_boxplots.pdf", width = 11, height =10)
+png("m_melodia_boxplots.png", width=11, height = 10, units = 'in', res = 1200)
+# pdf("m_melodia_boxplots.pdf", width = 11, height =10)
 figure <-ggarrange(m, w, t, s, b, h, d, k,
-                    labels = c("a", "b", "c", "d", "e", "f","g","h"))
+                    labels = c("A", "B", "C", "D", "E", "F","G","H"))
 
 figure
 
